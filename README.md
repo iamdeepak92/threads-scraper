@@ -6,8 +6,7 @@ This application provides three API endpoints to fetch user-related data from th
 
 ## Prerequisites
 
-- ⚙️ Node.js (version X.X.X or higher)
-- ⚙️ npm (version X.X.X or higher)
+- ⚙️ Node.js (version 12.20.0 or higher)
 
 ## Installation
 
@@ -24,11 +23,6 @@ This application provides three API endpoints to fetch user-related data from th
    npm install
    ```
 
-3. ⚙️ Set up the environment variables:
-   - Create a `.env` file in the root directory of the project.
-   - Define the following environment variables in the `.env` file:
-     - `PORT`: The port number on which the server will run (default: 3000).
-
 ## Usage
 
 1. ▶️ Start the server:
@@ -42,11 +36,13 @@ This application provides three API endpoints to fetch user-related data from th
 2. API Endpoints:
 
    - 🔍 Fetch userid by username:
+
      - Endpoint: `GET /userid/:username`
      - Example: `GET /userid/johndoe`
      - Response: `{ "userid": "12345" }`
 
    - 👤 Fetch user profile by userid:
+
      - Endpoint: `GET /userprofile/:userid`
      - Example: `GET /userprofile/12345`
      - Response: User profile JSON data
@@ -62,6 +58,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Feel free to update the sections as per your project's requirements. Include any additional information, guidelines, or usage instructions that you feel are relevant.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
