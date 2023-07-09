@@ -4,6 +4,10 @@ A scraper for the Threads app, built with Node.js and Express.js.
 
 This application provides three API endpoints to fetch user-related data from the Threads app.
 
+## About Threads
+
+Threads is a text-based app built by Meta to rival Twitter. The app became available on July 6th, 2023, to users in more than 100 countries. Threads was built by the Instagram team, allowing Instagram users to log into Threads through their Instagram account. The app bears many similarities to Twitter, from its layout to its product description.
+
 ## Prerequisites
 
 - ⚙️ Node.js (version 12.20.0 or higher)
